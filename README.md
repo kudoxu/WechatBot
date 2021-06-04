@@ -1,2 +1,5 @@
 # WechatBot
-Video download rebot service
+Video download robot service
+暂时先挖个坑，脚本初期基于Windows版微信来运行，也可以后期注册服务号跑在服务号上面。
+##### 初期目标：
+脚本判断用户请求文本格式，提取可支持内的视频网站地址；分析网站内视频流参数，默认提供100MB以内的视频文件下载，并提供OSS资源链接地址发送回微信用户以便下载。
